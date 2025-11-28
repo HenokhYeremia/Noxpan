@@ -1,12 +1,12 @@
 print("PREMIUM VERSION LOADED")
 
-local player = game.Players.LocalPlayer
-player.Character.Humanoid.WalkSpeed = 100
-player.Character.Humanoid.JumpPower = 150
+local base = "https://raw.githubusercontent.com/HenokhYeremia/Noxpan/main/"
 
--- MODULE PREMIUM
-local fishing = loadstring(game:HttpGet("https://yourdomain.com/modules/fishing.lua"))()
-local ui = loadstring(game:HttpGet("https://yourdomain.com/modules/ui.lua"))()
+-- ambil module premium
+local fishing = loadstring(game:HttpGet(base .. "modules/fishing.lua"))()
+local ui      = loadstring(game:HttpGet(base .. "modules/ui.lua"))()
 
 ui.Notify("Premium Mode Aktif")
+
+-- contoh fitur premium
 fishing.Start()
