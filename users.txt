@@ -1,3 +1,0 @@
-Henokh:premium
-UserTest1:free
-UserTest2:ban
