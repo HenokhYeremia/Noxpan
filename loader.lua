@@ -2,10 +2,13 @@
 -- LOADER BUATANMU SENDIRI - ORIGINAL SYSTEM
 -- ============================================
 
--- Ganti link berikut nanti setelah upload
-local userDB = "https://yourdomain.com/users.txt"
-local scriptFree = "https://yourdomain.com/main_free.lua"
-local scriptPremium = "https://yourdomain.com/main_premium.lua"
+-- BASE URL GitHub kamu
+local base = "https://raw.githubusercontent.com/HenokhYeremia/Noxpan/main/"
+
+-- file remote
+local userDB        = base .. "users.txt"
+local scriptFree    = base .. "main_free.lua"
+local scriptPremium = base .. "main_premium.lua"
 
 -- fungsi request sederhana
 local function req(url)
