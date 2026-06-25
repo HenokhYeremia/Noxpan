@@ -1,6 +1,33 @@
 {
-    "version": "1.0",
-    "developer": "YourName",
-    "discord": "yourdiscordlink",
-    "premium_features": ["fishing", "ui", "autoclick"]
+    "version": "3.0",
+    "developer": "HenokhYeremia",
+    "discord": "https://discord.gg/noxpan",
+    "hub_name": "Noxpan",
+    "supported_games": {
+        "6701277882": "Pemancing FishIt",
+        "9691752199": "Sawah Indo",
+        "9721900284": "FishZar",
+        "9186719164": "Sailor"
+    },
+    "premium_features": [
+        "auto_fishing",
+        "auto_click",
+        "auto_sell",
+        "auto_bait",
+        "auto_collect",
+        "esp",
+        "fly",
+        "noclip",
+        "infinite_jump",
+        "multi_game_support"
+    ],
+    "free_features": [
+        "speed_boost",
+        "jump_boost",
+        "anti_drown",
+        "hub_interface",
+        "basic_esp"
+    ],
+    "build": 20250626,
+    "loader_version": "3.0"
 }
