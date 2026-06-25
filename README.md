@@ -1,5 +1,24 @@
 <div align="center">
-  <img src="assets/noxpan_banner.svg" alt="Noxpan v3.0 Banner" width="100%">
+
+  <!-- Inline SVG Banner -->
+  <svg viewBox="0 0 800 200" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#ff0066"/>
+        <stop offset="25%" stop-color="#ff8800"/>
+        <stop offset="50%" stop-color="#00ff88"/>
+        <stop offset="75%" stop-color="#0088ff"/>
+        <stop offset="100%" stop-color="#8800ff"/>
+      </linearGradient>
+    </defs>
+    <rect width="800" height="200" rx="14" fill="#0d0d1a"/>
+    <rect x="2" y="2" width="796" height="196" rx="12" fill="none" stroke="url(#g)" stroke-width="2" opacity="0.4"/>
+    <text x="400" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="64" font-weight="900" fill="url(#g)" letter-spacing="3">NOXPAN</text>
+    <rect x="330" y="108" width="140" height="22" rx="11" fill="none" stroke="url(#g)" stroke-width="1.5" opacity="0.6"/>
+    <text x="400" y="123" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="url(#g)" letter-spacing="3">VERSION 3.0</text>
+    <text x="400" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#556688" letter-spacing="6">MULTI-GAME ROBLOX SCRIPT HUB</text>
+    <rect x="280" y="175" width="240" height="2" rx="1" fill="url(#g)" opacity="0.5"/>
+  </svg>
 
   <br>
 
