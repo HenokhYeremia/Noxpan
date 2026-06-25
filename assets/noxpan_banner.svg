@@ -1,18 +1,45 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
   <defs>
     <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#ff0066"/>
-      <stop offset="25%" stop-color="#ff8800"/>
-      <stop offset="50%" stop-color="#00ff88"/>
-      <stop offset="75%" stop-color="#0088ff"/>
-      <stop offset="100%" stop-color="#8800ff"/>
+      <stop offset="0%" stop-color="#ff0066">
+        <animate attributeName="stop-color" values="#ff0066;#ff8800;#00ff88;#0088ff;#8800ff;#ff0066" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="25%" stop-color="#ff8800">
+        <animate attributeName="stop-color" values="#ff8800;#00ff88;#0088ff;#8800ff;#ff0066;#ff8800" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#00ff88">
+        <animate attributeName="stop-color" values="#00ff88;#0088ff;#8800ff;#ff0066;#ff8800;#00ff88" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="75%" stop-color="#0088ff">
+        <animate attributeName="stop-color" values="#0088ff;#8800ff;#ff0066;#ff8800;#00ff88;#0088ff" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#8800ff">
+        <animate attributeName="stop-color" values="#8800ff;#ff0066;#ff8800;#00ff88;#0088ff;#8800ff" dur="4s" repeatCount="indefinite"/>
+      </stop>
     </linearGradient>
+    <filter id="g">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
   <rect width="800" height="200" rx="14" fill="#0d0d1a"/>
-  <rect x="2" y="2" width="796" height="196" rx="12" fill="none" stroke="url(#g)" stroke-width="2" opacity="0.4"/>
-  <text x="400" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="64" font-weight="900" fill="url(#g)" letter-spacing="3">NOXPAN</text>
-  <rect x="330" y="108" width="140" height="22" rx="11" fill="none" stroke="url(#g)" stroke-width="1.5" opacity="0.6"/>
+  <rect x="3" y="3" width="794" height="194" rx="11" fill="none" stroke="url(#g)" stroke-width="2" opacity="0.5">
+    <animate attributeName="stroke-dashoffset" values="0;-40" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="100" y="30" width="600" height="1" fill="url(#g)" opacity="0.15">
+    <animate attributeName="opacity" values="0.15;0.3;0.15" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="400" y="95" text-anchor="middle" font-family="Arial,sans-serif" font-size="66" font-weight="900" fill="url(#g)" filter="url(#g)" letter-spacing="3">
+    NOXPAN
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="2s" repeatCount="indefinite"/>
+  </text>
+  <rect x="332" y="108" width="136" height="22" rx="11" fill="none" stroke="url(#g)" stroke-width="1.5" opacity="0.7"/>
   <text x="400" y="123" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="url(#g)" letter-spacing="3">VERSION 3.0</text>
-  <text x="400" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#556688" letter-spacing="6">MULTI-GAME ROBLOX SCRIPT HUB</text>
-  <rect x="280" y="175" width="240" height="2" rx="1" fill="url(#g)" opacity="0.5"/>
+  <text x="400" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#556688" letter-spacing="6">
+    MULTI-GAME ROBLOX SCRIPT HUB
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="3s" repeatCount="indefinite"/>
+  </text>
+  <rect x="250" y="175" width="300" height="2" rx="1" fill="url(#g)" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2s" repeatCount="indefinite"/>
+  </rect>
 </svg>
