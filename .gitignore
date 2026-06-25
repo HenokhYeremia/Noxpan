@@ -1,0 +1,20 @@
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temp
+*.log
+tmp/
+temp/
+
+# Environment
+.env
+.env.local
