@@ -1,317 +1,154 @@
-<div align="center">
+![Noxpan v3.0 Banner](https://cdn.jsdelivr.net/gh/HenokhYeremia/Noxpan@main/assets/noxpan_banner.svg)
 
-  <!-- jsDelivr CDN serves SVGs with correct Content-Type for GitHub README -->
-  <img src="https://cdn.jsdelivr.net/gh/HenokhYeremia/Noxpan@main/assets/noxpan_banner.svg" alt="Noxpan v3.0 Banner" width="100%">
+# NOXPAN v3.0
+### Multi-Game Roblox Script Hub
 
-  <br>
+[![Version](https://img.shields.io/badge/version-3.0-ff0066?style=for-the-badge&logo=lua&logoColor=white&labelColor=1a1a2e)](https://github.com/HenokhYeremia/Noxpan)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Android-00ff88?style=for-the-badge&logo=windows&logoColor=white&labelColor=1a1a2e)]()
+[![Executors](https://img.shields.io/badge/executors-Delta%20%7C%20Xeno%20%7C%20Solara%20%7C%20Velocity-0088ff?style=for-the-badge&logo=roblox&logoColor=white&labelColor=1a1a2e)]()
+[![License](https://img.shields.io/badge/license-MIT-8800ff?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e)]()
 
-  <!-- Text banner fallback -->
-  <pre lang="colorful" style="background:#0d0d1a; color:#556688; padding:16px; border-radius:12px; border:1px solid #ff0066; font-family:monospace; text-align:center; overflow-x:auto;">
-<span style="color:#ff0066;">███</span><span style="color:#ff8800;">██</span><span style="color:#00ff88;">██</span><span style="color:#0088ff;">██</span><span style="color:#8800ff;">██</span>  <span style="color:#ffffff;font-weight:bold;font-size:1.2em;">NOXPAN v3.0</span>  <span style="color:#8800ff;">██</span><span style="color:#0088ff;">██</span><span style="color:#00ff88;">██</span><span style="color:#ff8800;">██</span><span style="color:#ff0066;">███</span>
-<span style="color:#556688;">   Multi-Game Roblox Script Hub   </span>
-  </pre>
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HenokhYeremia/Noxpan/main/loader.lua"))()
+```
 
-  <br>
-
-  <!-- Badges -->
-  <a href="#">
-    <img src="https://img.shields.io/badge/version-3.0-ff0066?style=for-the-badge&logo=lua&logoColor=white&labelColor=1a1a2e" alt="Version">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Android-00ff88?style=for-the-badge&logo=windows&logoColor=white&labelColor=1a1a2e" alt="Platform">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/executors-Delta%20%7C%20Xeno%20%7C%20Solara%20%7C%20Velocity-0088ff?style=for-the-badge&logo=roblox&logoColor=white&labelColor=1a1a2e" alt="Executors">
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/license-MIT-8800ff?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e" alt="License">
-  </a>
-
-  <br><br>
-
-  <!-- Quick Install -->
-  <table align="center">
-    <tr>
-      <td align="center" colspan="2">
-        <b><code style="background-color:#1a1a2e;color:#00ff88;padding:12px 24px;border-radius:8px;font-size:16px">loadstring(game:HttpGet("https://raw.githubusercontent.com/HenokhYeremia/Noxpan/main/loader.lua"))()</code></b>
-      </td>
-    </tr>
-  </table>
-
-  <br>
-
-  <!-- Stats -->
-  <table>
-    <tr>
-      <td align="center" width="200">
-        <b><span style="color:#ff0066">&#9733;</span> 4 Games</b><br>
-        <sub>Supported</sub>
-      </td>
-      <td align="center" width="200">
-        <b><span style="color:#00ff88">&#9881;</span> 12 Modules</b><br>
-        <sub>Loaded</sub>
-      </td>
-      <td align="center" width="200">
-        <b><span style="color:#0088ff">&#9889;</span> 20+ Features</b><br>
-        <sub>Available</sub>
-      </td>
-      <td align="center" width="200">
-        <b><span style="color:#ff8800">&#9733;</span> Free / Premium</b><br>
-        <sub>Tier System</sub>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<br>
+| 4 Games | 12 Modules | 20+ Features | Free / Premium |
+|---------|-----------|-------------|----------------|
+| Supported | Loaded | Available | Tier System |
 
 ---
 
-## <span style="color:#ff0066">&#9733;</span> Features
+## Features
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
+### Fishing Engine
+- Auto-cast & equip rod
+- 3 bite detection modes: **Smart**, **Normal**, **Aggressive**
+- Auto-reel on bite
+- Fish counter + earnings tracker
+- Cast / reel / max-wait sliders
+- Auto-sell every 5 fish
+- Auto-bait detection
 
-### <span style="color:#00ff88">&#9917;</span> Fishing Engine
-  - &#9679; Auto-cast & equip rod
-  - &#9679; 3 bite detection modes: **Smart**, **Normal**, **Aggressive**
-  - &#9679; Auto-reel on bite
-  - &#9679; Fish counter + earnings tracker
-  - &#9679; Cast / reel / max-wait sliders
-  - &#9679; Auto-sell every 5 fish
-  - &#9679; Auto-bait detection
+### Player Boosts
+- **WalkSpeed** slider (16–250)
+- **Jump Power** slider (50–250)
+- Anti-Drown
+- NoClip (phase through walls)
+- Infinite Jump
+- Fly mode (WASD + Space + Shift)
+- Auto-reapply on respawn
 
-    </td>
-    <td width="50%" valign="top">
+### ESP System
+- Fish ESP (green highlight)
+- Player ESP (red highlight)
+- Chest / Loot ESP (gold highlight)
+- Billboard name + distance display
+- Per-type color coding
+- Adjustable scan radius
 
-### <span style="color:#0088ff">&#127939;</span> Player Boosts
-  - &#9679; **WalkSpeed** slider (16–250)
-  - &#9679; **Jump Power** slider (50–250)
-  - &#9679; Anti-Drown
-  - &#9679; NoClip (phase through walls)
-  - &#9679; Infinite Jump
-  - &#9679; Fly mode (WASD + Space + Shift)
-  - &#9679; Auto-reapply on respawn
-
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-
-### <span style="color:#ff8800">&#128065;</span> ESP System
-  - &#9679; Fish ESP (green highlight)
-  - &#9679; Player ESP (red highlight)
-  - &#9679; Chest / Loot ESP (gold highlight)
-  - &#9679; Billboard name + distance display
-  - &#9679; Per-type color coding
-  - &#9679; Adjustable scan radius
-
-    </td>
-    <td width="50%" valign="top">
-
-### <span style="color:#8800ff">&#9881;</span> Utilities
-  - &#9679; Auto-clicker (0.01s–1s interval)
-  - &#9679; Auto-collect dropped items
-  - &#9679; Anti-ban protection
-  - &#9679; Persistent settings (save/load)
-  - &#9679; Notification system
-  - &#9679; Error-safe (all pcall wrapped)
-
-    </td>
-  </tr>
-</table>
-
-<br>
+### Utilities
+- Auto-clicker (0.01s–1s interval)
+- Auto-collect dropped items
+- Anti-ban protection
+- Persistent settings (save/load)
+- Notification system
+- Error-safe (all pcall wrapped)
 
 ---
 
-## <span style="color:#00ff88">&#127758;</span> Supported Games
+## Supported Games
 
-<table>
-  <tr>
-    <th align="center">Game</th>
-    <th align="center">Game ID</th>
-    <th align="center">Status</th>
-  </tr>
-  <tr>
-    <td align="center"><b>Pemancing FishIt</b></td>
-    <td align="center"><code>6701277882</code></td>
-    <td align="center"><b><span style="color:#00ff88">&#10004; Optimized</span></b></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Sawah Indo</b></td>
-    <td align="center"><code>9691752199</code></td>
-    <td align="center"><b><span style="color:#ff8800">&#9888; Generic</span></b></td>
-  </tr>
-  <tr>
-    <td align="center"><b>FishZar</b></td>
-    <td align="center"><code>9721900284</code></td>
-    <td align="center"><b><span style="color:#ff8800">&#9888; Generic</span></b></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Sailor</b></td>
-    <td align="center"><code>9186719164</code></td>
-    <td align="center"><b><span style="color:#ff8800">&#9888; Generic</span></b></td>
-  </tr>
-</table>
+| Game | Game ID | Status |
+|------|---------|--------|
+| **Pemancing FishIt** | `6701277882` | Optimized |
+| **Sawah Indo** | `9691752199` | Generic |
+| **FishZar** | `9721900284` | Generic |
+| **Sailor** | `9186719164` | Generic |
 
-> **Note:** Unknown games fall back to generic fishing detection. Add new Game IDs to `GAMES` table in `loader.lua:6` to enable auto-detection.
-
-<br>
+> Unknown games fall back to generic fishing detection. Add new Game IDs to `GAMES` table in `loader.lua` to enable auto-detection.
 
 ---
 
-## <span style="color:#ff8800">&#128273;</span> User Tiers
+## User Tiers
 
-<table>
-  <tr>
-    <th align="center">Tier</th>
-    <th align="center">Access</th>
-    <th align="center">Features</th>
-  </tr>
-  <tr>
-    <td align="center"><b><span style="color:#00ff88">PREMIUM</span></b></td>
-    <td align="center">All features</td>
-    <td>Fishing engine, ESP, Fly, NoClip, Auto-clicker, Auto-farm, Anti-ban, Player boosts</td>
-  </tr>
-  <tr>
-    <td align="center"><b><span style="color:#aaaaaa">FREE</span></b></td>
-    <td align="center">Basic only</td>
-    <td>Speed boost, Jump boost, Anti-drown, Basic hub, WalkSpeed slider</td>
-  </tr>
-  <tr>
-    <td align="center"><b><span style="color:#ff4444">BANNED</span></b></td>
-    <td align="center">No access</td>
-    <td>Blocked from loading</td>
-  </tr>
-</table>
+| Tier | Access | Features |
+|------|--------|----------|
+| **PREMIUM** | All features | Fishing engine, ESP, Fly, NoClip, Auto-clicker, Auto-farm, Anti-ban, Player boosts |
+| **FREE** | Basic only | Speed boost, Jump boost, Anti-drown, Basic hub, WalkSpeed slider |
+| **BANNED** | No access | Blocked from loading |
 
-> Edit `users.txt` to set user tiers: `Username:premium`, `Username:free`, `Username:ban`
-
-<br>
+Edit `users.txt` to set user tiers: `Username:premium`, `Username:free`, `Username:ban`
 
 ---
 
-## <span style="color:#0088ff">&#128736;</span> Project Structure
+## Project Structure
 
 ```
 Noxpan/
-├── loader.lua              Entry point — multi-game hub
-├── main_free.lua           Legacy free loader
-├── main_premium.lua        Legacy premium loader
-├── users.txt               User tier database
-│
-├── modules/
-│   ├── hub.lua             GUI (4 tabs, draggable, minimize)
-│   ├── fishing.lua         Auto-fishing engine
-│   ├── player.lua          Player boosts
-│   ├── esp.lua             ESP system
-│   ├── autoclick.lua       Auto-clicker
-│   ├── autofarm.lua        Auto-farm utilities
-│   ├── antiban.lua         Anti-detection
-│   ├── settings.lua        Persistent settings
-│   ├── game_fishit.lua     FishIt-specific module
-│   ├── game_fishing.lua    Generic fallback module
-│   ├── ui.lua              Notification system
-│   └── utils.lua           Shared utilities
-│
-├── assets/
-│   └── noxpan_banner.svg   Animated banner
-│
-├── json/
-│   └── config.json         Hub metadata
-│
-└── README.md               You are here
+  loader.lua              Entry point — multi-game hub
+  main_free.lua           Legacy free loader
+  main_premium.lua        Legacy premium loader
+  users.txt               User tier database
+  modules/
+    hub.lua               GUI (4 tabs, draggable, minimize)
+    fishing.lua           Auto-fishing engine
+    player.lua            Player boosts
+    esp.lua               ESP system
+    autoclick.lua         Auto-clicker
+    autofarm.lua          Auto-farm utilities
+    antiban.lua           Anti-detection
+    settings.lua          Persistent settings
+    game_fishit.lua       FishIt-specific module
+    game_fishing.lua      Generic fallback module
+    ui.lua                Notification system
+    utils.lua             Shared utilities
+  assets/
+    noxpan_banner.svg     Animated banner (via jsDelivr CDN)
+  json/
+    config.json           Hub metadata
 ```
-
-<br>
 
 ---
 
-## <span style="color:#8800ff">&#127919;</span> Loader Flow
+## Loader Flow
 
 ```
 User runs loader.lua
-    │
-    ├── Polyfill executor APIs (mouse1click, fireproximityprompt)
-    │
-    ├── Fetch config.json + users.txt from GitHub
-    │
-    ├── Check user status (premium / free / ban)
-    │
-    ├── Detect game by GameId
-    │   ├── Known game → load game-specific module
-    │   └── Unknown  → use generic fallback
-    │
-    ├── Load modules (utils, ui, player, settings…)
-    │   └── Premium tier also loads: fishing, esp, autoclick, etc.
-    │
-    └── Init hub GUI → ready to use
+  ├── Polyfill executor APIs (mouse1click, fireproximityprompt)
+  ├── Fetch config.json + users.txt from GitHub
+  ├── Check user status (premium / free / ban)
+  ├── Detect game by GameId
+  │     ├── Known game → load game-specific module
+  │     └── Unknown  → use generic fallback
+  ├── Load modules (utils, ui, player, settings...)
+  │     └── Premium tier also loads: fishing, esp, autoclick, etc.
+  └── Init hub GUI → ready to use
 ```
 
-<br>
+---
+
+## Compatible Executors
+
+| Executor | Platform | Support |
+|----------|----------|---------|
+| **Delta** | Android | Full |
+| **Xeno** | Windows | Full |
+| **Solara** | Windows | Full |
+| **Velocity** | Windows | Full |
+| Synapse Z / Script-Ware | Windows | Native |
 
 ---
 
-## <span style="color:#ff0066">&#128187;</span> Compatible Executors
-
-<table>
-  <tr>
-    <th align="center">Executor</th>
-    <th align="center">Platform</th>
-    <th align="center">Support</th>
-  </tr>
-  <tr>
-    <td align="center"><b>Delta</b></td>
-    <td align="center">Android</td>
-    <td align="center"><b><span style="color:#00ff88">&#10004; Full</span></b></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Xeno</b></td>
-    <td align="center">Windows</td>
-    <td align="center"><b><span style="color:#00ff88">&#10004; Full</span></b></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Solara</b></td>
-    <td align="center">Windows</td>
-    <td align="center"><b><span style="color:#00ff88">&#10004; Full</span></b></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Velocity</b></td>
-    <td align="center">Windows</td>
-    <td align="center"><b><span style="color:#00ff88">&#10004; Full</span></b></td>
-  </tr>
-  <tr>
-    <td align="center">Synapse Z / Script-Ware</td>
-    <td align="center">Windows</td>
-    <td align="center"><b><span style="color:#00ff88">&#10004; Native</span></b></td>
-  </tr>
-</table>
-
-<br>
-
----
-
-## <span style="color:#888888">&#9432;</span> Notes
+## Notes
 
 - Script loads from **GitHub raw** — internet connection required
 - Executor must support `loadstring` and `HttpGet`
 - `users.txt` is **public** — do not store sensitive credentials here
 - For production auth, replace with a backend API
 
-<br>
-
 ---
 
-<div align="center">
-  <sub>
-    <b>Noxpan v3.0</b> &mdash; Developed by
-    <a href="https://github.com/HenokhYeremia">
-      <b>HenokhYeremia</b>
-    </a>
-    <br>
-    <img src="https://img.shields.io/github/last-commit/HenokhYeremia/Noxpan?style=flat-square&color=8800ff&label=last%20update">
-    <img src="https://img.shields.io/github/repo-size/HenokhYeremia/Noxpan?style=flat-square&color=ff0066&label=size">
-  </sub>
-</div>
+*Noxpan v3.0 — Developed by [HenokhYeremia](https://github.com/HenokhYeremia)*
+
+[![Last Commit](https://img.shields.io/github/last-commit/HenokhYeremia/Noxpan?style=flat-square&color=8800ff)](https://github.com/HenokhYeremia/Noxpan/commits/main)
+[![Repo Size](https://img.shields.io/github/repo-size/HenokhYeremia/Noxpan?style=flat-square&color=ff0066)](https://github.com/HenokhYeremia/Noxpan)
